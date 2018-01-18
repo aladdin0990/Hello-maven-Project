@@ -16,12 +16,12 @@ public class App
     public static void main( String[] args ) {
         for (int i = 0; i < 10; i++) {
 
-            logger.info("Welcome to BAH Bhavik!");
+            logger.info("How are you?");
         }
     }
     public void main1(  )
     {
 
-        logger.info("Welcome to BAH Bhavik!");
+        logger.info("How are you?");
     }
 }
