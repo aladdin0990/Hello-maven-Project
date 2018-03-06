@@ -7,7 +7,7 @@ node {
 
        stage('Checkout'){
 
-          checkout 'https://github.com/aladdin0990/Hello-maven-Project.git'
+          checkout scm
        }
 
        stage('Build'){
