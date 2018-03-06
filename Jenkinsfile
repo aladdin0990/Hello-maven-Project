@@ -31,13 +31,13 @@ node {
         sh 'mvn deploy'
     }
 
-    stage('mail'){
+    /*stage('mail'){
 
          mail body: 'project build successful',
                      from: 'patelbhavik89@gmail.com',
                      subject: 'project build successful',
                      to: 'patelbhavik89@gmail.com'
-       }
+       }*/
 	    
 	    
 
