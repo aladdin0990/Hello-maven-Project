@@ -7,10 +7,10 @@ node {
 
        stage('Checkout'){
 
-          checkout scm
+          checkout 'https://github.com/aladdin0990/Hello-maven-Project.git'
        }
 
-       stage('Compiling'){
+       stage('Build'){
 
           sh 'mvn clean install'
        }
@@ -31,14 +31,13 @@ node {
         sh 'mvn deploy'
     }
 
-      /* stage('mail'){
+    stage('mail'){
 
          mail body: 'project build successful',
-                     from: 'devopstrainingblr@gmail.com',
-                     replyTo: 'mithunreddytechnologies@gmail.com',
+                     from: 'patelbhavik89@gmail.com',
                      subject: 'project build successful',
-                     to: 'mithunreddytechnologies@gmail.com'
-       }*/
+                     to: 'patelbhavik89@gmail.com'
+       }
 	    
 	    
 
