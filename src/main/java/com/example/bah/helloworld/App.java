@@ -17,6 +17,7 @@ public class App
         for (int i = 0; i < 10; i++) {
 
             logger.info("How are you?");
+            logger.info("Hello World!");
         }
     }
     public void main1(  )
