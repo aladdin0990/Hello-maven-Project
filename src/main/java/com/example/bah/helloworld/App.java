@@ -17,6 +17,7 @@ public class App
         for (int i = 0; i < 10; i++) {
 
             logger.info("Hello World!");
+            logger.info("Hello DevOps Team");
         }
     }
     public void main1(  )
